@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(to right,green,blue);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.h1{
+  color: aqua;
+  display: block;
+  font-size: 500%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-family: fantasy;
+  font-style: oblique;
+}
+.bu{
+  color: rgb(6, 94, 94);
+
+}
+.dev{
+  background-color: azure;
+  overflow-y: scroll;
+  height: 600px;
+  border: 2px solid black;
+  margin: 8px;
+  box-shadow: 7px -1px 5px rgb(152, 190, 152), -7px -1px 5px rgb(189, 204, 189);
 }
