@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:linear-gradient(to right,green,blue);
+  background:linear-gradient(to right,#35cf35,rgb(94, 94, 131));
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 code {
@@ -15,11 +17,13 @@ code {
 .h1{
   color: aqua;
   display: block;
-  font-size: 500%;
+  font-size: 400%;
   margin-top: 10px;
   margin-bottom: 100px;
   font-family: fantasy;
   font-style: oblique;
+  text-shadow: 6px 6px 4px yellow;
+  text-align: center;
 }
 .bu{
   color: rgb(6, 94, 94);
